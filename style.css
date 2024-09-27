@@ -1,0 +1,99 @@
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing
+{
+    background-image:url('/Images/cfront.jpeg');
+    background-size: cover;
+    background-position:center;
+    height:100vh ;
+}
+
+header a{
+    text-decoration: none;
+    color:rgb(169, 7, 102);
+    font-size: 1.5em;
+}
+header{
+    display:flex;
+    padding: .5em;
+    font-size: 1.5em;
+}
+#logo
+{
+    flex:3;
+    font-size: 1.25em;
+}
+nav{
+    flex:2;
+    display:flex;
+}
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color: darkblue;
+
+}
+.maintext{
+    display:flex;
+    flex-direction: column;
+    height:40vh;
+    justify-content: center;
+    
+}
+.tagline{
+    color: rgb(16, 202, 180);
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width: 20vw;
+    margin-top:2em;
+    border-radius: 10px;
+    padding:.7em;
+    background-color: darkgreen;
+    
+}
+.callus{
+    color: aliceblue;
+}
+.sfiery{
+   width:50%;
+
+   
+}
+.schicken{
+    width:50%;
+    
+}
+.sfish
+{
+    width:50%;
+}
+.spicy{
+    color: blue;
+}
+.snoodle{
+      width:50%;
+}
+.pakora{
+      width:50%;
+}
+.chili{
+      width:50%;
+}
+.nv{
+    color: darkgreen;
+    font-size: 1.5em;
+}
+.v{
+    color: darkgreen;
+    font-size: 1.5em;
+}
